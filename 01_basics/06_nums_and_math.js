@@ -1,7 +1,10 @@
+// toString() , length() , toFixed(decimalPlaces) , toPrecision(total numbers) , toLocaleString('en-IN') 
+// abs() , round() , ceil() , floor() , min() , max() , random()
+
 const score = 400
 // console.log(score);
 
-const balance = new Number(100)
+const balance = new Number(100) // creates an instance/object 
 // console.log(balance);
 
 // console.log(balance.toString().length);
@@ -31,4 +34,4 @@ console.log(Math.floor(Math.random()*10) + 1);
 const min = 10
 const max = 20
 
-console.log(Math.floor(Math.random() * (max - min + 1)) + min)
+console.log(Math.floor(Math.random() * (max - min + 1)) + min) // between [min,max]
