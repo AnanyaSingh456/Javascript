@@ -1,3 +1,4 @@
+// this refers to current context
 const user = {
     username: "hitesh",
     price: 999,
