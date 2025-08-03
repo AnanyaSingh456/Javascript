@@ -1,5 +1,5 @@
-// Primitive(copy created) -> no changes in original
-// Non-primitive (reference) -> same changes in original
+// Primitive(copy created) -> no changes in original => created in stack memory
+// Non-primitive (reference) -> same changes in original => created in heap memory 
 
 //  Primitive
 
