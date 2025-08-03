@@ -1,8 +1,14 @@
+// mdn all string methods
+// taught here: .__proto__ , length , toUpperCase() , charAt() , indexOf() , substring[start,end) , slice[start,end)
+// trim() , trimStart() , trimEnd() , split(sym) , includes() , replace(what,with) 
+
+// string creates a copy in stack (primitive) does not change the original
 const name = "hitesh"
 const repoCount = 50
 
 // console.log(name + repoCount + " Value");
 
+// string interpolation syntax(recommended)
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
 const gameName = new String('hitesh-hc-com')
